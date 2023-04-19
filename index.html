@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ - Boston Bakery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+  <style>
+    /* Custom styles */
+    .header-logo {
+      font-family: 'Marker Felt', fantasy;
+      font-size: 36px;
+      margin: 10px;
+      color: #add8e6; /* use light blue color */
+    }
+    body {
+      background-color: #f8f9fa;
+    }
+    .header {
+      background-color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header section -->
+  <div class="header">
+    <h1 class="header-logo">Sweetdough</h1>
+  </div>
+
+  <!-- FAQ section -->
+  <div class="container my-5">
+    <h2 class="mb-5">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+
+      <!-- FAQ item 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+            What kinds of baked goods do you offer?
+          </button>
+        </h2>
+        <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            We offer a wide variety of baked goods, including breads, pastries, cakes, and cookies. Check out our menu for a full list of options!
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ item 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+            Do you offer gluten-free options?
+          </button>
+        </h2>
+        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, we do offer gluten-free options for many of our baked goods. Just let us know your dietary needs when you place your order!
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ item 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+            Can I place an order in advance?
+          </button>
+        </h2>
+        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Absolutely! We recommend placing your order at least 24 hours in advance to ensure we have everything prepared for you. You can place an order online or by phone.
+          </div>
+        </
